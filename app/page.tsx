@@ -1,6 +1,7 @@
 import Image from "next/image";
 import MaxWidthWrapper from "./components/MaxWidthWrapper";
-import { CheckIcon } from "@radix-ui/react-icons";
+import { CheckIcon, StarFilledIcon } from "@radix-ui/react-icons";
+import Phone from "./components/Phone";
 
 export default function Home() {
   return (
@@ -46,10 +47,53 @@ export default function Home() {
               <div className="flex -space-x-4">
                 <img 
                 className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
-                src="/users/user-1.png" alt="" />
+                src="/users/user-1.png" 
+                alt="use image" />
+                <img 
+                className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
+                src="/users/user-2.png" 
+                alt="use image" />
+                <img 
+                className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
+                src="/users/user-3.png" 
+                alt="use image" />
+                <img 
+                className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
+                src="/users/user-4.jpg" 
+                alt="use image" />
+                <img 
+                className="inline-block h-10 w-10 object-cover rounded-full ring-2 ring-slate-100"
+                src="/users/user-5.jpg" 
+                alt="use image" />
+              </div>
+
+              <div className="flex flex-col justify-between items-center sm:items-start">
+                <div className="flex gap-0.5">
+                  <StarFilledIcon className="h-4 w-4 text-darkgray"/>
+                  <StarFilledIcon className="h-4 w-4 text-darkgray"/>
+                  <StarFilledIcon className="h-4 w-4 text-darkgray"/>
+                  <StarFilledIcon className="h-4 w-4 text-darkgray"/>
+                  <StarFilledIcon className="h-4 w-4 text-darkgray"/>
+                </div>
+                <p>
+                  <span className="font-semibold">1.250</span> happy customers
+                </p>
               </div>
             </div>
 
+          </div>
+        </div>
+
+
+        <div className="col-span-4 lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit">
+          <div className="relative md:max-w-xl">
+            <img src="./your-image.png" 
+            className="absolute w-40 lg:w-52 left-52 -top-20 select-none hidden sm:block lg:hidden"
+            alt="your image" />
+            <img src="./line.png" 
+            className="absolute w-20 -left-6 -bottom-6 select-none"
+            alt="line" />
+            <Phone className="w-64" imgSrc="/testimonials/1.jpg"/>
           </div>
         </div>
       </MaxWidthWrapper>
