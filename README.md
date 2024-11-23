@@ -2,6 +2,7 @@
 
 Built with the Next.js 14 App Router, Postgres, TypeScript, Tailwind & Kinde Auth
 
+<<<<<<< HEAD
 ![Project Image](https://github.com/joschan21/casecobra/blob/master/public/thumbnail.png)
 
 ## Features
@@ -38,3 +39,6 @@ and copy the .env.example variables into a separate .env file, fill them out & a
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+=======
+#q1akm2024
+>>>>>>> da0bdd489a69509a861d672a89fec281a8f79915
