@@ -26,7 +26,7 @@ const OrderReceivedEmail = ({
   const baseUrl =
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3000'
-      : 'https://casecobra.vercel.app'
+      : 'https://casepanda.vercel.app'
 
   return (
     <Html>
@@ -36,7 +36,7 @@ const OrderReceivedEmail = ({
         <Container style={container}>
           <Section style={message}>
             <Img
-              src={`${baseUrl}/snake-3.png`}
+              src={`${baseUrl}/panda-3.png`}
               width='65'
               height='73'
               alt='delivery snake'
@@ -90,7 +90,7 @@ const OrderReceivedEmail = ({
             </Row>
             <Row>
               <Text style={footer.text}>
-                © CaseCobra, Inc. All Rights Reserved.
+                © CasePanda, Inc. All Rights Reserved.
               </Text>
             </Row>
           </Section>
