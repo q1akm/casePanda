@@ -3,7 +3,8 @@
 Built with the Next.js 14 App Router, Postgres, TypeScript, Tailwind & Kinde Auth
 
 <<<<<<< HEAD
-![Project Image](https://github.com/q1akm/casePanda.git/blob/master/public/thumbnail.png)
+![thu](https://github.com/user-attachments/assets/990a52c7-d3eb-462e-8159-04f93815c92c)
+
 
 ## Features
 
